@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h1>My Skills</h1>
+
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Java</li>
+                        <li>Scala</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h2>Data Engineering Tools</h2>
+                    <ul>
+                        <li>Apache Spark</li>
+                        <li>AWS Glue</li>
+                        <li>Apache Airflow</li>
+                        <li>Informatica</li>
+                        <li>PySpark</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h2>Cloud Technologies</h2>
+                    <ul>
+                        <li>AWS (S3, Lambda, Glue, EMR)</li>
+                        <li>Azure</li>
+                        <li>Google Cloud</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h2>Data Modeling & Analysis</h2>
+                    <ul>
+                        <li>ETL Design</li>
+                        <li>Data Warehousing</li>
+                        <li>Data Migration</li>
+                        <li>Data Quality Assurance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhilash. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

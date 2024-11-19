@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h2>ETL Pipeline for MNC</h2>
+                    <p>A large-scale data migration project where I designed and implemented an ETL pipeline using Python, PySpark, and AWS Glue to migrate data from legacy systems to cloud infrastructure.</p>
+                    <p><strong>Technologies Used:</strong> Python, PySpark, AWS Glue, Lambda, S3</p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h2>Data Warehouse Migration</h2>
+                    <p>Lead the migration of a large data warehouse from an on-prem system to AWS Redshift, optimizing ETL processes and improving data access speeds.</p>
+                    <p><strong>Technologies Used:</strong> AWS Redshift, SQL, Python, AWS S3</p>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h2>Data Quality Framework</h2>
+                    <p>Developed a data quality framework that integrated real-time validation, error detection, and alerting mechanisms for data ingestion pipelines.</p>
+                    <p><strong>Technologies Used:</strong> Python, Apache Airflow, AWS Lambda</p>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h2>Data Integration Framework</h2>
+                    <p>Created a reusable data integration framework to automate data transformations and processing for multiple clients, reducing ETL job times by 40%.</p>
+                    <p><strong>Technologies Used:</strong> PySpark, Python, Apache Airflow</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhilash. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Optional: Link to Google Fonts for a more polished typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Abhilash Muralidharan</h1>
+            <p>Experienced Data Engineer | Cloud Enthusiast | Passionate About Solving Complex Data Problems</p>
+            <a href="/about" class="cta-btn">Learn More About Me</a>
+        </div>
+        <div class="hero-image"></div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a Data Engineering Manager with experience in Python, PySpark, AWS, and building data pipelines at global enterprises. My expertise includes managing large-scale data migrations, designing ETL frameworks, and ensuring smooth data integration processes for complex systems.</p>
+            <a href="/projects" class="cta-btn">See My Projects</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhilash Muralidharan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

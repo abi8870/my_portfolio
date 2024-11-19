@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="container">
+            <h1>My Resume</h1>
+
+            <!-- Resume Overview -->
+            <div class="resume-overview">
+                <div class="resume-section">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>
+                            <strong>Data Engineering Manager at Capgemini</strong> (Current)
+                            <p>Leading a team of engineers and managing ETL and data migration pipelines for a global automobile MNC using AWS Glue, Lambda, and Step Functions.</p>
+                        </li>
+                        <li>
+                            <strong>Application Development Team Lead at Accenture</strong> (2022 - Present)
+                            <p>Designed and implemented Python/PySpark-based data integration frameworks for multiple clients, optimizing data migration and cloud integration.</p>
+                        </li>
+                        <li>
+                            <strong>Data Analyst at Genpact</strong> (Previous)
+                            <p>Worked on data analysis, reporting, and visualizations to support business decision-making.</p>
+                        </li>
+                        <li>
+                            <strong>Data Engineer at Cognizant</strong> (Previous)
+                            <p>Focused on data modeling, building scalable data pipelines, and ensuring data integrity.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resume-section">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            <strong>Bachelor of Technology in Computer Science</strong> - XYZ University (Graduated in 2019)
+                            <p>Specialization in Data Engineering and Machine Learning.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resume-section">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>PySpark</li>
+                        <li>AWS (Glue, Lambda, Step Functions)</li>
+                        <li>SQL</li>
+                        <li>ETL Design & Data Migration</li>
+                        <li>Apache Airflow</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Download Resume Button -->
+            <div class="download-resume">
+                <p>For a detailed view of my experience, education, and skills, download my full resume:</p>
+                <a href="/static/images/Abhilash_resume_0603.pdf" class="download-btn" download>Download Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhilash. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

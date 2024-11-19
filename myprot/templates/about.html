@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/skills">Skills</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-header">
+                <img src="/static/images/profile.jpg" alt="Your Photo" class="about-photo"> 
+                <div class="about-text">
+                    <h1>Hi, I'm Abhilash</h1>
+                    <p>AWS Data Engineering Manager | Data Enthusiast</p>
+                </div>
+            </div>
+            <div class="about-details">
+                <h2>Who Am I?</h2>
+                <p>With 9+ years of experience in the data engineering field, I have had the opportunity to work on large-scale data migration projects, build robust ETL pipelines, and utilize cloud technologies such as AWS, Python/PySpark. I thrive in solving complex data challenges and creating systems that scale effortlessly.</p>
+                <p>Throughout my career, I have been fortunate to work with leading global companies, helping them optimize their data processes, migrate to cloud infrastructures, and transform raw data into actionable insights.</p>
+            </div>
+
+            <div class="about-experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Data Engineering Manager</strong> at Capgemini (2024 - Present)</li>
+                    <li><strong>Application Development Team Lead</strong> at Accenture (2022 - 2024)</li>                    
+                    <li><strong>Data Engineer</strong> at Cognizant (2016 - 2021)</li>
+                    <li><strong>Data Analyst</strong> at Genpact (2021 - 2022)</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhilash. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
